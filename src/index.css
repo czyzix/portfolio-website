@@ -49,3 +49,27 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+.r-t-l {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  overflow: hidden;
+  color: white;
+}
+
+p {
+  font-size: 19px;
+  padding: 0 400px;
+  white-space: nowrap;
+  animation: move-rtl 5s linear infinite;
+}
+
+@keyframes move-rtl {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

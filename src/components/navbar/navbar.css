@@ -3,20 +3,50 @@
     margin: 0;
     padding: 0;
     z-index: 100;
-    width: 50vw;
-    bottom: 0;
+    top: 10vh;
+    right: 10vh;
     /* background-color: rgb(100, 255, 178); */
 }
 
 ul {
-    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
 }
 
 li {
-    padding: 0 21px;
+    padding: 10px 20px;
 }
 
 a {
+    position: relative;
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+    font-size: 12px;;
+    font-weight: 900;
+}
+
+a:after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 0.3s;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+a:hover {
+    color: white;
+}
+
+/* a {
     position: relative;
     text-decoration: none;
     font-size: 60px;
@@ -71,4 +101,4 @@ a:after {
 a:hover:after {
     top: -0.2em;
     left: -0.2em;
-}
+} */

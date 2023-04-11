@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Courier Prime', monospace;
+  font-family: 'Michroma', sans-serif;
   overflow-y: hidden;
   margin: 0;
 }
@@ -19,7 +19,7 @@
 }
 
 .one {
-  background-color: rgb(35, 20, 77);
+  background-color: rgb(30, 30, 32);
 }
 
 .two {

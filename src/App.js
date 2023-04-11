@@ -5,10 +5,6 @@ function App() {
     <div className="App">
       <Navbar/>
       <div className='outer-wrapper'>
-          <div className='r-t-l'>
-            <p>RADOSŁAW CZYŻEWSKI FRONTEND DEVELOPER </p>
-            <p>RADOSŁAW CZYŻEWSKI FRONTEND DEVELOPER</p>
-          </div>
         <div className='wrapper'>
           <div className='slide one'></div>
           <div className='slide two'></div>

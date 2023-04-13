@@ -1,0 +1,46 @@
+.sidebar-container {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+    bottom: 0;
+    left: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 320px;
+    width: 50px;
+}
+
+.sidebar-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    font-size: 25px;
+}
+
+.sidebar-list li {
+    margin-top: 20px;
+    overflow: visible;
+}
+
+.ico {
+    position: relative;
+    color: rgb(112, 118, 133);
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.ico:hover {
+    color: white;
+    bottom: 5px;
+}
+
+.social-text {
+    white-space: nowrap;
+    position: relative;
+    top: 70px;
+    color: rgb(112, 118, 133);;
+    transform: rotate(-90deg);
+}
